@@ -2,6 +2,8 @@
 
 # dependencies
 /node_modules
+/src/hooks/node_modules
+/src/hooks/lib
 /.pnp
 .pnp.js
 
@@ -9,7 +11,7 @@
 /coverage
 
 # production
-/build
+# /build
 
 # misc
 .DS_Store

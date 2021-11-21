@@ -1,0 +1,40 @@
+{
+  "name": "@saifudinhasan/hooks",
+  "version": "1.0.2",
+  "description": "collection of custom hooks for react",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "module": "lib/index.js",
+  "private": false,
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "peerDependencies": {
+    "react": "^17.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saifudinhasan/react-mono.git#master"
+  },
+  "keywords": [
+    "hooks"
+  ],
+  "author": "saifudinhasan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saifudinhasan/react-mono/issues"
+  },
+  "homepage": "https://github.com/saifudinhasan/react-mono/tree/master#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.2"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}

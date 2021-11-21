@@ -11,8 +11,8 @@ const Navbar = (): JSX.Element => {
         <Link to="/" className="nav-brand">Home</Link>
         
         <div className="nav-menu">
-          <Link to="/" className="menu">Npm</Link>
-          <Link to="/" className="menu">Github</Link>
+          <a href="https://www.npmjs.com/package/@saifudinhasan/hooks" target="_blank" rel="noreferrer" className="menu">NPM</a>
+          <a href="https://github.com/saifudinhasan/react-mono" target="_blank" rel="noreferrer" className="menu">Github</a>
         </div>
         
       </NavbarContainer>

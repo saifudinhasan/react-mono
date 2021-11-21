@@ -1,6 +1,6 @@
 import { ReactNode, useEffect, useState } from "react"
 import styled, { css } from "styled-components"
-import { useWindowScroll } from "../../hooks"
+import { useWindowScroll } from "@saifudinhasan/hooks"
 
 interface Options {
   height: number
