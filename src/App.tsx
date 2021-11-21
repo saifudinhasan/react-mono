@@ -1,26 +1,46 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { Link } from 'react-router-dom';
+import styled from 'styled-components';
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Container>
+
+      <h3 className="title">
+        My mono repo for custom components & hooks
+      </h3>
+
+      <Menu to="/autohide-navbar">Autohide</Menu>
+
+    </Container>
   );
 }
+
+const Container = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  flex-direction: column;
+
+  .title {
+    font-family: 'Yeseva One';
+    margin-bottom: 20px;
+    padding: 20px 0;
+    border-bottom: 1px solid #555;
+  }
+`
+
+const Menu = styled(Link)`
+  padding: 10px 20px;
+  text-decoration: none;
+  color: salmon;
+  border-bottom: 1px solid transparent;
+  transition: 1s;
+  &:hover {
+    border-bottom: 1px solid #555;
+  }
+`
 
 export default App;
