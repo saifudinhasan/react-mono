@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
 import styled from "styled-components"
-import { AutoHideNavbar } from "../../components"
+import { AutoHideNavbar } from "@sh4/components"
 
 const Navbar = (): JSX.Element => {
 
@@ -11,7 +11,7 @@ const Navbar = (): JSX.Element => {
         <Link to="/" className="nav-brand">Hello</Link>
         
         <div className="nav-menu">
-          <a href="https://www.npmjs.com/package/@saifudinhasan/hooks" target="_blank" rel="noreferrer" className="menu">NPM</a>
+          <a href="https://www.npmjs.com/package/@sh4/components" target="_blank" rel="noreferrer" className="menu">NPM</a>
           <a href="https://github.com/saifudinhasan/react-mono" target="_blank" rel="noreferrer" className="menu">Github</a>
         </div>
         
