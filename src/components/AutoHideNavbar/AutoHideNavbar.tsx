@@ -1,4 +1,4 @@
-import { ReactNode, useEffect, useState } from "react"
+import React, { ReactNode, useEffect, useState } from "react"
 import styled, { css } from "styled-components"
 import { useWindowScroll } from "@sh4/hooks"
 

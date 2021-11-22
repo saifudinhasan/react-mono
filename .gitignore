@@ -4,6 +4,8 @@
 /node_modules
 /src/hooks/node_modules
 /src/hooks/lib
+/src/components/node_modules
+/src/components/dist
 /.pnp
 .pnp.js
 

@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
 import styled from "styled-components"
-import { AutoHideNavbar } from "../components"
+import { AutoHideNavbar } from "../../components"
 
 const Navbar = (): JSX.Element => {
 
