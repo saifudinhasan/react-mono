@@ -1,6 +1,6 @@
 {
   "name": "@saifudinhasan/hooks",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "collection of custom hooks for react",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -12,15 +12,12 @@
   "scripts": {
     "build": "tsc"
   },
-  "peerDependencies": {
-    "react": "^17.0.2"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/saifudinhasan/react-mono.git#master"
   },
   "keywords": [
-    "hooks"
+    "useScroll", "use-scroll", "scroll", "autohide", "window-scroll", "react-hook", "hooks"
   ],
   "author": "saifudinhasan",
   "license": "ISC",
@@ -30,6 +27,9 @@
   "homepage": "https://github.com/saifudinhasan/react-mono/tree/master#readme",
   "publishConfig": {
     "access": "public"
+  },
+  "peerDependencies": {
+    "react": "^17.0.2"
   },
   "devDependencies": {
     "typescript": "^4.5.2"

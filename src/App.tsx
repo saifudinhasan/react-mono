@@ -11,7 +11,7 @@ function App() {
         My mono repo for custom components & hooks
       </h3>
 
-      <Menu to="/autohide-navbar">Autohide</Menu>
+      <Menu to="/autohide-navbar">Autohide Navbar</Menu>
 
     </Container>
   );
