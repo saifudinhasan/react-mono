@@ -1,7 +1,7 @@
 {
-  "name": "@saifudinhasan/hooks",
-  "version": "1.0.4",
-  "description": "collection of custom hooks for react",
+  "name": "@sh4/hooks",
+  "version": "1.0.0",
+  "description": "Collections of custom hooks for ReactJS",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "module": "lib/index.js",

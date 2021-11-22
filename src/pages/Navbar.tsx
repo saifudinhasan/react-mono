@@ -8,7 +8,7 @@ const Navbar = (): JSX.Element => {
     <Container>
       <NavbarContainer height={80} delay={200}>
 
-        <Link to="/" className="nav-brand">Home</Link>
+        <Link to="/" className="nav-brand">Hello</Link>
         
         <div className="nav-menu">
           <a href="https://www.npmjs.com/package/@saifudinhasan/hooks" target="_blank" rel="noreferrer" className="menu">NPM</a>

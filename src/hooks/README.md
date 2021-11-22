@@ -1,11 +1,11 @@
-# `@saifudinhasan/hooks`
+# `@sh4/hooks`
 
 Collection of my custom [React hooks](https://reactjs.org/docs/hooks-intro.html).
 
 ## Instalation
 
 ```shell
-npm i @saifudinhasan/hooks
+npm i @sh4/hooks
 ```
 
 ## Usage
